@@ -11,23 +11,22 @@ updates:
     schedule:
       interval: 'weekly'
     assignees:
-      - 'emackie9'
+      - 'emackie-eddaic'
     reviewers:
-      - 'emackie9'
+      - 'emackie-eddaic'
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
       interval: 'weekly'
     assignees:
-      - 'emackie9'
+      - 'emackie-eddaic'
     reviewers:
-      - 'emackie9'
+      - 'emackie-eddaic'
     ignore:
-      # For all packages, ignore all patch updates
+      # For all packages, ignore all patch and major updates
       - dependency-name: '*'
-        update-types: ['version-update:semver-patch']
-      - dependency-name: 'eslint'
-        update-types: ['version-update:semver-major']
+        update-types:
+          ['version-update:semver-patch', 'version-update:semver-major']
     groups:
       jest:
         patterns:
