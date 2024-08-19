@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.3.2...v1.4.0) (2024-08-19)
+
+
+### Features
+
+* migrate to `emackie-eddaic` git account ([#2](https://github.com/emackie-eddaic/nestjs-decorators/issues/2)) ([aa41b0c](https://github.com/emackie-eddaic/nestjs-decorators/commit/aa41b0ca017a9b4e90f7ff5dcc6910233fc81aaa))
+
+
+### Bug Fixes
+
+* **doc:** update `README.md` ([7abc497](https://github.com/emackie-eddaic/nestjs-decorators/commit/7abc49713bda94547d234abcf57d288a4e38e05d))
+
 ## [1.3.2](https://github.com/emackie9/nestjs-decorators/compare/v1.3.1...v1.3.2) (2024-06-12)
 
 
