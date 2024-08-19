@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.4.0...v1.4.1) (2024-08-19)
+
+
+### Bug Fixes
+
+* **npm:** update `repository.url` ([8cd9045](https://github.com/emackie-eddaic/nestjs-decorators/commit/8cd9045a0342acf4d2c4426fc84d019bcd1e5ef2))
+
 ## [1.4.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.3.2...v1.4.0) (2024-08-19)
 
 
