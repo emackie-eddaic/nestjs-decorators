@@ -7,7 +7,7 @@ Included with each decorator are Swagger `ApiProperty` definitions to reduce boi
 ## Installation
 
 ```sh
-npm install @emackie/nestjs-decorators
+npm install @eddaic/nestjs-decorators
 ```
 
 ## Decorators
@@ -31,7 +31,7 @@ npm install @emackie/nestjs-decorators
 Pipe parameters as bigint values, raising `BadRequestException` if unable to tranform.
 
 ```typescript
-import { ParseBigIntPipe } from '@emackie/nestjs-decorators';
+import { ParseBigIntPipe } from '@eddaic/nestjs-decorators';
 import { Controller, Get, Param } from '@nestjs/common';
 
 @Controller()
@@ -54,7 +54,7 @@ import {
   IsBigInt,
   RoundingPolicy,
   TransformBigInt,
-} from '@emackie/nestjs-decorators';
+} from '@eddaic/nestjs-decorators';
 import { IsNumber, IsOptional } from 'class-validator';
 
 export class MyDto {
@@ -83,7 +83,7 @@ import {
   ApiPropertyInt,
   RoundingPolicy,
   TransformInt,
-} from '@emackie/nestjs-decorators';
+} from '@eddaic/nestjs-decorators';
 import { IsNumber } from 'class-validator';
 
 export class MyDto {
@@ -100,7 +100,7 @@ export class MyDto {
 import {
   ApiPropertyDate,
   ApiPropertyDateOptional,
-} from '@emackie/nestjs-decorators';
+} from '@eddaic/nestjs-decorators';
 import { IsDate, IsOptional } from 'class-validator';
 
 export class MyDto {
@@ -118,7 +118,7 @@ export class MyDto {
 ### `Trim`
 
 ```typescript
-import { Trim } from '@emackie/nestjs-decorators';
+import { Trim } from '@eddaic/nestjs-decorators';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';
 
