@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.5.0...v1.5.1) (2024-09-13)
+
+
+### Bug Fixes
+
+* **string:** missing `ToLower` export ([#8](https://github.com/emackie-eddaic/nestjs-decorators/issues/8)) ([3f02075](https://github.com/emackie-eddaic/nestjs-decorators/commit/3f0207512d9f71561d1da44a7e200222b3b6b8b5))
+
 ## [1.5.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.4.1...v1.5.0) (2024-09-13)
 
 
