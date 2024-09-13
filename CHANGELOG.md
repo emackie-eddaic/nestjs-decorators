@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.4.1...v1.5.0) (2024-09-13)
+
+
+### Features
+
+* **string:** add `ToLower` transformer ([#6](https://github.com/emackie-eddaic/nestjs-decorators/issues/6)) ([907c3f5](https://github.com/emackie-eddaic/nestjs-decorators/commit/907c3f5c6ea7c8ab39be3ad1fb5f2ecbfca5ccaa))
+
 ## [1.4.1](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.4.0...v1.4.1) (2024-08-19)
 
 
