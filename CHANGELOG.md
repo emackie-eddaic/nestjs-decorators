@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.5.1...v1.5.2) (2024-09-17)
+
+
+### Bug Fixes
+
+* **deps:** resolve `path-to-regexp` vulnerabilty ([f9214b2](https://github.com/emackie-eddaic/nestjs-decorators/commit/f9214b254b4ee4d6ac04cd037ea50407e9c611c8))
+
 ## [1.5.1](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.5.0...v1.5.1) (2024-09-13)
 
 
