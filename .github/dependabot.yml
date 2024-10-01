@@ -37,6 +37,11 @@ updates:
       nestjs:
         patterns:
           - '@nestjs/*'
+      prettier:
+        patterns:
+          - 'eslint-config-prettier'
+          - 'eslint-plugin-prettier'
+          - 'prettier'
       typescript-eslint:
         patterns:
           - '@typescript-eslint/*'
