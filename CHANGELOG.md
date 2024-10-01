@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.5.2...v1.6.0) (2024-10-01)
+
+
+### Features
+
+* **deps:** bump the nestjs group with 2 updates ([#16](https://github.com/emackie-eddaic/nestjs-decorators/issues/16)) ([c1757e4](https://github.com/emackie-eddaic/nestjs-decorators/commit/c1757e46adf9648f7dcf180c0ac8d79b6e303068))
+
 ## [1.5.2](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.5.1...v1.5.2) (2024-09-17)
 
 
