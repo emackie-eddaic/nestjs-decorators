@@ -22,11 +22,12 @@ updates:
       - 'emackie-eddaic'
     reviewers:
       - 'emackie-eddaic'
+    commit-message:
+      prefix: 'feat'
+      include: 'scope'
     ignore:
-      # For all packages, ignore all patch and major updates
       - dependency-name: '*'
-        update-types:
-          ['version-update:semver-patch', 'version-update:semver-major']
+        update-types: ['version-update:semver-major']
     groups:
       jest:
         patterns:
@@ -38,3 +39,7 @@ updates:
       typescript-eslint:
         patterns:
           - '@typescript-eslint/*'
+      typestack:
+        patterns:
+          - 'class-transformer'
+          - 'class-validator'
