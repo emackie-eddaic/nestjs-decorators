@@ -163,7 +163,7 @@ export class MyDto {
   @SplitString({ separator: ',' })
   @TransformInt({ each: true })
   @ApiPropertyInt({ isArray: true })
-  integers: string[];
+  integers: number[];
 }
 ```
 
