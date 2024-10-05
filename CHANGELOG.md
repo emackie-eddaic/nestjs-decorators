@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.7.0...v1.7.1) (2024-10-05)
+
+
+### Bug Fixes
+
+* **readme:** improve Swagger examples ([ba232b2](https://github.com/emackie-eddaic/nestjs-decorators/commit/ba232b2e471820e15f2298bda4c6c1cc0a439453))
+
 ## [1.7.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.6.0...v1.7.0) (2024-10-05)
 
 
