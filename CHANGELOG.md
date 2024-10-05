@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.7.1...v1.7.2) (2024-10-05)
+
+
+### Bug Fixes
+
+* **readme:** incorrect type in example ([c1072d5](https://github.com/emackie-eddaic/nestjs-decorators/commit/c1072d5bfb79741066489079f3f189006f55be04))
+
 ## [1.7.1](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.7.0...v1.7.1) (2024-10-05)
 
 
