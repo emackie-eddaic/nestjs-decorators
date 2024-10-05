@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.6.0...v1.7.0) (2024-10-05)
+
+
+### Features
+
+* **int:** support transforming integer arrays ([#23](https://github.com/emackie-eddaic/nestjs-decorators/issues/23)) ([2a3049c](https://github.com/emackie-eddaic/nestjs-decorators/commit/2a3049c5dc163766ec3036cf19a8057eb204fbee))
+* **string:** add `SplitString` transformer ([2a3049c](https://github.com/emackie-eddaic/nestjs-decorators/commit/2a3049c5dc163766ec3036cf19a8057eb204fbee))
+
 ## [1.6.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.5.2...v1.6.0) (2024-10-01)
 
 
