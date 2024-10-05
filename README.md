@@ -108,7 +108,7 @@ import { IsNumber } from 'class-validator';
 export class MyDto {
   @IsNumber({ each: true })
   @TransformInt({ each: true, rounding: RoundingPolicy.FLOOR })
-  @ApiPropertyInt()
+  @ApiPropertyInt({ isArray: true })
   floors: number[];
 }
 ```
@@ -146,7 +146,7 @@ import { IsString, IsNotEmpty } from 'class-validator';
 export class MyDto {
   @IsString({ each: true })
   @SplitString({ separator: '|' })
-  @ApiProperty()
+  @ApiProperty({ isArray: true, type: 'string' })
   strings: string[];
 }
 ```
@@ -162,7 +162,7 @@ export class MyDto {
   @IsNumber({ each: true })
   @SplitString({ separator: ',' })
   @TransformInt({ each: true })
-  @ApiProperty()
+  @ApiPropertyInt({ isArray: true })
   integers: string[];
 }
 ```
