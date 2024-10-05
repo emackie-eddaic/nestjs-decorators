@@ -20,6 +20,7 @@ npm install @eddaic/nestjs-decorators
 - `ApiPropertyIntOptional`
 - `IsBigInt`
 - `ParseBigIntPipe`
+- `SplitString`
 - `TransformBigInt`
 - `TransformInt`
 - `Trim`
@@ -94,6 +95,24 @@ export class MyDto {
 }
 ```
 
+#### Transforming Arrays
+
+```typescript
+import {
+  ApiPropertyInt,
+  RoundingPolicy,
+  TransformInt,
+} from '@eddaic/nestjs-decorators';
+import { IsNumber } from 'class-validator';
+
+export class MyDto {
+  @IsNumber({ each: true })
+  @TransformInt({ each: true, rounding: RoundingPolicy.FLOOR })
+  @ApiPropertyInt()
+  floors: number[];
+}
+```
+
 ### `ApiPropertyDate`, `ApiPropertyDateOptional`
 
 ```typescript
@@ -112,6 +131,39 @@ export class MyDto {
   @IsOptional()
   @ApiPropertyDateOptional()
   optional_date?: date;
+}
+```
+
+### `SplitString`
+
+Returns string array using specified separator (defaults to `,`). Supporting `RegExp` also.
+
+```typescript
+import { SplitString } from '@eddaic/nestjs-decorators';
+import { ApiProperty } from '@nestjs/swagger';
+import { IsString, IsNotEmpty } from 'class-validator';
+
+export class MyDto {
+  @IsString({ each: true })
+  @SplitString({ separator: '|' })
+  @ApiProperty()
+  strings: string[];
+}
+```
+
+#### Combined with `TransformInt`
+
+```typescript
+import { SplitString, TransformInt } from '@eddaic/nestjs-decorators';
+import { ApiProperty } from '@nestjs/swagger';
+import { IsNumber } from 'class-validator';
+
+export class MyDto {
+  @IsNumber({ each: true })
+  @SplitString({ separator: ',' })
+  @TransformInt({ each: true })
+  @ApiProperty()
+  integers: string[];
 }
 ```
 
