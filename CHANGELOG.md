@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.0](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.7.2...v1.8.0) (2024-10-28)
+
+
+### Features
+
+* **deps:** bump @nestjs/common in the nestjs group ([#31](https://github.com/emackie-eddaic/nestjs-decorators/issues/31)) ([0bb5509](https://github.com/emackie-eddaic/nestjs-decorators/commit/0bb550957979db3e7cf3910601bddf8f686a4086))
+* **deps:** bump @nestjs/common in the nestjs group ([#36](https://github.com/emackie-eddaic/nestjs-decorators/issues/36)) ([0496d6f](https://github.com/emackie-eddaic/nestjs-decorators/commit/0496d6f74f9f7ecd3ce74f37a551a32831543392))
+
 ## [1.7.2](https://github.com/emackie-eddaic/nestjs-decorators/compare/v1.7.1...v1.7.2) (2024-10-05)
 
 
